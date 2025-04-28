@@ -1,12 +1,17 @@
+
 import React from 'react'
+import LoginPage from './pages/LoginPage'
+import SignUpPage from './pages/SignUpPage'
 import About from './component/About/index.jsx'
 
-export const App = () => {
+const App = () => {
   return (
-     
     <div>
-      <About />
-      </div>
+      <LoginPage/>
+      <SignUpPage/>
+          <About />
+     
+    </div>
   )
 }
 
