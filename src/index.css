@@ -1,3 +1,79 @@
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .nav-link:hover {
+    background-color: #575757;
+  }
+  
+  .intro-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .enroll-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .enroll-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .card ul {
+    text-align: left;
+  }
+
+  .footer {
+    background-color: #28a745; 
+    color: #fff;
+    padding: 16px;
+    text-align: center; 
 .about-container {
   display: flex;
   flex-direction: column;
@@ -6,3 +82,4 @@
   padding: 20px;
 }
   
+
