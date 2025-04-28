@@ -1,15 +1,21 @@
 
-import Services from './Component/Services'
 
 
 
 import React from 'react'
-import About from './component/About/index.jsx'
+import Aboutpage from './page/Aboutpage/index.jsx'
+import LoginPage from './page/LoginPage/index.jsx'
+import SignUpPage from './page/SignUpPage/index.jsx'
+import Servicespage from './page/Servicespage'
 
-export const App = () => {
+ const App = () => {
   return (
     <div>
-      <About />
+      <LoginPage/>
+<SignUpPage/>
+      <Aboutpage />
+      <Servicespage/>
+
       </div>
   )
 }
