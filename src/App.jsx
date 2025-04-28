@@ -1,10 +1,17 @@
+
+import Services from './Component/Services'
+
+
+
 import React from 'react'
-import Contactpage from './page/Contactpage'
+import About from './component/About/index.jsx'
+
 export const App = () => {
   return (
     <div>
-      <Contactpage />
-    </div>
+      <About />
+      </div>
   )
 }
- export default App
+
+export default App
