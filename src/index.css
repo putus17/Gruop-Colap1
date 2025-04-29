@@ -72,8 +72,10 @@ body {
   .footer {
     background-color: #28a745; 
     color: #fff;
-    padding: 16px;
+    padding: 10px;
     text-align: center; 
+  }
+
 .about-container {
   display: flex;
   flex-direction: column;
