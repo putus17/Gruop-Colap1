@@ -17,10 +17,9 @@ import ContactPage from './page/Contactpage'
   return (
     <div>
       <HomePage/>
-
-      <LoginPage/>
-<SignUpPage/>
       <Aboutpage />
+      <LoginPage/>
+      <SignUpPage/>
       <Servicespage/>
       <ContactPage/>
 
