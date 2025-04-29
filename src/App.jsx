@@ -1,7 +1,15 @@
 import React from 'react'
+import LoginPage from './pages/LoginPage'
+import SignUpPage from './pages/SignUpPage'
 
-export const App = () => {
+const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <LoginPage/>
+      <SignUpPage/>
+     
+    </div>
   )
 }
+
+export default App
