@@ -9,7 +9,7 @@ import React from 'react'
         everything we do</p><br />
 
         <h1>Our Mission</h1>
-        <p>To provide innovation solution that make a positive impact on our clients' success.</p><br />
+        <p>To provide innovation solution that make a positive impact on our clients' success.</p><br/>
 
         <h1>Our Vision</h1>
         <p>To become a leading force in our industry while maintaining the highest standards of quality and service.<br /></p>
