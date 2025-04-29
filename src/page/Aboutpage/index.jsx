@@ -1,20 +1,18 @@
 import React from 'react'
-import About from '../../component/About/index.jsx'
-import { Footer, Header } from 'antd/es/layout/layout.js'
-import NavBar from '../../component/NavBar/index.jsx'
-import Welcome from '../../component/welcome/index.jsx'
+import About from '../../Component/About'
+import Footer from '../../Component/Footer'
+import NavBar from '../../component/NavBar'
+import Welcome from '../../component/welcome'
 
-
-const Aboutpage = () => {
+const AboutPage = () => {
   return (
     <div>
-      <Welcome/>
-     
-      <NavBar />
-      <About />
-   <Footer />
+       <Welcome/>
+      <NavBar/>
+      <About/>
+      <Footer/>
     </div>
   )
 }
 
-export default Aboutpage
+export default AboutPage
